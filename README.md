@@ -4,6 +4,11 @@ Desarrollo de una herramienta Python
 
 ## Descripción
 Este proyecto tiene como objetivo procesar y cargar datos geoespaciales en una base de datos PostgreSQL/PostGIS mediante el uso de Python. A continuación, se explican los pasos para configurar, ejecutar y probar el proyecto en un entorno local.
+Dicho proyecto tiene como objetivo seleccionar un servicio (como gimnasio, supermercado, clínica veterinaria, etc.) que desee instalar en una comuna de elección. Mediante uso de un modelo espacial🌐 debe determinar el o los predios óptimos para la instalación del servicio escogido.
+
+##Proyecto escogido
+Se eligió la instalación de canchas de basketball vecinales, las cuales tienen como variables para seleccionar el lugar lo que son la cantidad de personas (menos de 50) que no debe ser muy alta para asi mantener las condiciones de la cancha para los vecinos
+Así como también que no se encuentren a mucha distancia de áreas verdes (<200 metros). Esto se fijó tomando en cuenta que la comuna de elección corresponde a Vitacura, una comuna con una densidad poblacional menor la mayoria y que cuenta con extensas áreas verdes.
 
 ## Requisitos
 - Python 3.8 o superior.
@@ -95,7 +100,7 @@ El script:
 3. Ejecuta las consultas SQL necesarias para procesar las zonas.
 
 ### Salida
-Tablas procesadas en la base de datos con las geometrías y cálculos necesarios.
+Tablas procesadas en la base de datos con las geometrías y cálculos necesarios, entregando así una tabla con las geometrías seleccionadas para la instalación de las canchas de basketball.
 
 ## Consideraciones Finales
 - Asegúrate de que la extensión PostGIS esté habilitada en tu base de datos.
