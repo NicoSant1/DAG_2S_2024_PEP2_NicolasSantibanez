@@ -1,0 +1,12 @@
+{
+    "database": {
+        "db_type": "postgresql",
+        "db": "PEP",
+        "schema": "Entradas",
+	    "host": "localhost",
+	    "port": "5432",
+	    "passwd": "lucho98",
+	    "user": "postgres"
+    }
+  
+}
