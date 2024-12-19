@@ -1,5 +1,8 @@
 # DAG_2S_2024_PEP2_NicolasSantibanez
-Desarrollo de una herramienta Python
+Entrega Pep 2 DAG 2 Semestre
+Alumno: Nicolás Santibáñez
+Profesor: Ignacio Yañez 
+Ayudante: Nicolás Triviño
 # Proyecto de Procesamiento de Datos Geoespaciales
 
 ## Descripción
