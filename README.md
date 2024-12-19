@@ -101,6 +101,4 @@ Tablas procesadas en la base de datos con las geometrías y cálculos necesarios
 - Asegúrate de que la extensión PostGIS esté habilitada en tu base de datos.
 - Si encuentras errores, verifica la configuración de las rutas y credenciales en los archivos mencionados.
 
-## Licencia
-Este proyecto está licenciado bajo MIT. Consulta el archivo `LICENSE` para más detalles.
 
